@@ -1,5 +1,5 @@
 # Environment
-Python 3.8
+Python 3.8  //
 PyTorch >= 1.5
 
 ```bash
