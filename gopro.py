@@ -129,7 +129,7 @@ class GOPRO(torch.utils.data.Dataset):
         input_frames = [read_img_opencv(input_frames_path.format(
             frame_name))[..., ::-1] for frame_name in input_frames_name[2:]]
 
-        last_output_path = os.path.join("D:/GOPRO/test2", video_name,"sharp","{}")
+        last_output_path = os.path.join("the path", video_name,"sharp","{}")
         last_output = [read_img_opencv(last_output_path.format(input_frames_name[1]))]
 
         # stack and transpose (n, c, h, w)
@@ -179,3 +179,4 @@ def read_img_opencv(path, size=None):
     if img.shape[2] > 3:
         img = img[:, :, :3]
     return img
+
