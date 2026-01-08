@@ -24,10 +24,10 @@ In last_output_path = os.path.join("the path", video_name,"Sharp","RGB","{}"), p
 2. Pretrained checkpoints are listed:
 | Dataset | Link |
 |---|---|
-| DVD | [Link1](https://drive.google.com/file/d/10cRanHwJ-W9q5_EXaw075oXK3zkpEA0r/view?usp=drive_link) |
-| GOPRO | Link2 |
-| BSD 1ms-8ms | Link3 |
-| BSD 3ms-24ms | Link4 |
+| DVD | [DVD](https://drive.google.com/file/d/10cRanHwJ-W9q5_EXaw075oXK3zkpEA0r/view?usp=drive_link) |
+| GOPRO | [GOPRO](https://drive.google.com/file/d/1zaauM_E0HGtB_PFRUmYOQgqhWhh2GtNL/view?usp=drive_link) |
+| BSD 1ms-8ms | [BSD1ms](https://drive.google.com/file/d/1hQLZz_Xr6n4n8cy7Bfz-F2WXZTL0ooHb/view?usp=drive_link) |
+| BSD 3ms-24ms | [BSD1ms](https://drive.google.com/file/d/1HeUsssll6pQGTbtJgYYks1M9sJMPm2sj/view?usp=drive_link) |
 
 
 
