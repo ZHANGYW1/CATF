@@ -1,3 +1,9 @@
-# CATF
+# Environment
+Python 3.8
+PyTorch >= 1.5
 
-The code will be released after the paper is accepted.
+```bash
+pip install -r requirements.txt
+python train.py --config configs/base.yaml
+
+
