@@ -22,8 +22,8 @@ In last_output_path = os.path.join("the path", video_name,"Sharp","RGB","{}"), p
 # Test
 1. Download and unzip the datasets
 2. Pretrained checkpoints are listed:
-| Dataset | Download |
-|---|---|
+| Dataset | Download |  
+|---|---|  
 | DVD | [Google Drive](https://drive.google.com/file/d/10cRanHwJ-W9q5_EXaw075oXK3zkpEA0r/view?usp=drive_link) |  
 | GOPRO | [Google Drive](https://drive.google.com/file/d/1zaauM_E0HGtB_PFRUmYOQgqhWhh2GtNL/view?usp=drive_link) |  
 | BSD 1ms-8ms | [Google Drive](https://drive.google.com/file/d/1hQLZz_Xr6n4n8cy7Bfz-F2WXZTL0ooHb/view?usp=drive_link) |  
