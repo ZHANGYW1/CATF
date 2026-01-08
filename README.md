@@ -10,4 +10,4 @@ cd SimDeblur
 bash Install.sh
 ```
 
-Replace the path SimDeblur\simdeblur\dataset\dvd.py with 
+Replace the path SimDeblur\simdeblur\dataset\dvd.py with [`dvd.py`](./dvd.py)
