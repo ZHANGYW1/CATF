@@ -3,7 +3,10 @@ Python 3.8
 PyTorch >= 1.5
 
 ```bash
-pip install -r requirements.txt
-python train.py --config configs/base.yaml
+git clone  git clone https://github.com/ljzycmd/SimDeblur.git
+
+# install the SimDeblur
+cd SimDeblur
+bash Install.sh
 
 
