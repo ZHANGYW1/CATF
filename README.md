@@ -23,9 +23,9 @@ cd SimDeblur
 bash Install.sh
 ```
 
-# Test
+# Test 
 1. Download and unzip the datasets
-2. 
+2. Add the required path. (The architecture used in this project is based on [VDTR](https://github.com/ljzycmd/VDTR). Please refer to the official repository for implementation details.)
 3. Pretrained checkpoints are listed:
 
 | Dataset      | Download                                                                                              |
@@ -35,7 +35,7 @@ bash Install.sh
 | BSD 1ms-8ms  | [Google Drive](https://drive.google.com/file/d/1hQLZz_Xr6n4n8cy7Bfz-F2WXZTL0ooHb/view?usp=drive_link) |
 | BSD 3ms-24ms | [Google Drive](https://drive.google.com/file/d/1HeUsssll6pQGTbtJgYYks1M9sJMPm2sj/view?usp=drive_link) |
 
-Unfinsihed...
+
 
 
 
