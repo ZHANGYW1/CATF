@@ -20,8 +20,8 @@ from model import catf
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Train image/video deblurring model")
-    parser.add_argument("--config_file", default="./configs/CATF/catf_bsd1ms.yaml", help="the path of config file")
-    parser.add_argument("--ckpt_file", default="D:/VDTR-main/BSD1ms.pth", help="the path of checkpoint file")
+    parser.add_argument("--config_file", default="", help="the path of config file")
+    parser.add_argument("--ckpt_file", default="", help="the path of checkpoint file")
     parser.add_argument("--save_path", help="the dir to save logs and ckpts")
 
     parser.add_argument("--gpus", type=int, default=0, help="number of gpus per computing node")
