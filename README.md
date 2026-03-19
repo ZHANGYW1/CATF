@@ -36,7 +36,8 @@ bash Install.sh
 | BSD 3ms-24ms | [Google Drive](https://drive.google.com/file/d/1HeUsssll6pQGTbtJgYYks1M9sJMPm2sj/view?usp=drive_link) |
 
 #Acknowledge
-The repo is partly built based on [VDTR](https://github.com/ljzycmd/VDTR), [NAFNet](https://github.com/megvii-research/NAFNet), . We are grateful for their generous contribution to open source.
+
+The repo is partly built based on [VDTR](https://github.com/ljzycmd/VDTR), [NAFNet](https://github.com/megvii-research/NAFNet), and MoE. We are grateful for their generous contribution to open source.
 
 
 
