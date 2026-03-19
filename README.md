@@ -15,7 +15,9 @@ In last_output_path = os.path.join("the path", video_name,"sharp","{}"), please 
 4. Replace the path SimDeblur\simdeblur\dataset\bsd.py with [`bsd.py`](./bsd.py)  
 In last_output_path = os.path.join("the path", video_name,"Sharp","RGB","{}"), please replace "the path" with the input path of the first frame.
 
-5. Install SimDeblur
+5. Replace the path SimDeblur\simdeblur\engine\trainer.py with [`trainer.py`](./trainer.py)  
+
+6. Install SimDeblur
 ```bash
 cd SimDeblur
 bash Install.sh
