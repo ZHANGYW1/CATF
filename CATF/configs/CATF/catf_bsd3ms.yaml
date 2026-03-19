@@ -1,4 +1,4 @@
-name: bsd1ms
+name: bsd3m
 
 __base_cfg__: ./../base_bsd.yaml
 

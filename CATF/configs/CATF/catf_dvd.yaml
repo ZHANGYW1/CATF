@@ -1,15 +1,17 @@
-name: bsd1ms
+name: dvd
 
-__base_cfg__: ./../base_bsd.yaml
+__base_cfg__: ./../base_dvd.yaml
 
 dataset:
     train:
-        root_gt:
+        num_frames: 5
         loader:
             batch_size: 5
             num_workers: 5
+
     val:
-        root_gt:
+        num_frames: 5
+
 
 meta_arch: SingleScalePlainCNN
 model:
@@ -17,6 +19,7 @@ model:
     in_channels: 3
     inner_channels: 256
     num_frames: 3
+    num_frames1: 2
     patch_size: 4
     cnn_patch_embedding: True
     patch_embedding_size: 4
@@ -27,32 +30,32 @@ model:
     ffn_dim: None
     ms_fuse: True
 
-loss: 
+loss:
     criterion:
     - name: CharbonnierLoss
     - name: PerceptualLossVGG19
-    
-    weights: 
+
+    weights:
     - 1.0
     - 0.0001
 
 schedule:
     epochs: 2001
     val_epochs: 20
-    
+
     optimizer:
         name: Adam
-        lr: 0.0002
+        lr: 0.0003
         betas: [0.9, 0.99]
         weight_decay: 0
-        
+
     lr_scheduler:
         name: CosineAnnealingLR_Restart
         T_period: [1000, 1001]
         restarts: [1000]
         weights: [1]
 
-logging: 
+logging:
     period: 20
 
 ckpt:

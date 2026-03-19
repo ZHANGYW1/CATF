@@ -1,15 +1,12 @@
-name: bsd1ms
+name: gopro
 
-__base_cfg__: ./../base_bsd.yaml
-
+__base_cfg__: ./../base_gopro.yaml
+##5##
 dataset:
     train:
-        root_gt:
         loader:
-            batch_size: 5
-            num_workers: 5
-    val:
-        root_gt:
+            batch_size: 4
+            num_workers: 4
 
 meta_arch: SingleScalePlainCNN
 model:
@@ -17,10 +14,11 @@ model:
     in_channels: 3
     inner_channels: 256
     num_frames: 3
+    num_frames1: 2
     patch_size: 4
     cnn_patch_embedding: True
     patch_embedding_size: 4
-    num_layer_rec: 3
+    num_layer_rec: 5
     temporal_patchsize: 4
     num_heads: 8
     dropout: 0.0
@@ -42,7 +40,7 @@ schedule:
     
     optimizer:
         name: Adam
-        lr: 0.0002
+        lr: 0.0004
         betas: [0.9, 0.99]
         weight_decay: 0
         
@@ -61,4 +59,4 @@ ckpt:
 
 work_dir: ./workdir/catf
 resume_from: None
-init_mode: True
+init_mode: False
